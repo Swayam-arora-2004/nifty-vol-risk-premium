@@ -1,0 +1,28 @@
+.claude/settings.local.json
+
+# macOS metadata
+.DS_Store
+__MACOSX/
+._*
+
+# Python & Environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.env
+
+# Data artifacts
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.parquet
+*.duckdb
+
+# Credentials (SECURITY.md 1.2)
+credentials*
+*.key
+*.pem
